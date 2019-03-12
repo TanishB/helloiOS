@@ -1,5 +1,5 @@
 //
-//  helloGitViewController.swift
+//  ViewController2.swift
 //  helloWorld
 //
 //  Created by Tanish on 12/03/19.
@@ -8,12 +8,13 @@
 
 import UIKit
 
-class helloGitViewController: UIViewController {
+class ViewController2: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        navigationController?.navigationBar.isHidden = false
     }
     
 
